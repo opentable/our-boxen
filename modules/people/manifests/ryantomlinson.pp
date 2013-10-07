@@ -1,4 +1,4 @@
-class people::stack72 {
+class people::ryantomlinson {
     include sparrow
     include evernote
     include vagrant
