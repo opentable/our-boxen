@@ -1,5 +1,4 @@
 class people::stack72 {
-
   include alfred
   include iterm2::stable
   include sublime_text_2
@@ -22,4 +21,6 @@ class people::stack72 {
   include vlc
   include hipchat
   include wunderlist
+  include ohmyzsh
+}
 
