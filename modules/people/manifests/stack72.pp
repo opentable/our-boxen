@@ -6,20 +6,20 @@ class people::stack72 {
   include chrome
   include vagrant
 
-  #include webstorm
-  #class { 'intellij':
-  #  edition => 'ultimate',
-  #  version => '13.0.2'
-  #}
+  include webstorm
+  class { 'intellij':
+    edition => 'ultimate',
+    version => '13.0.2'
+  }
 
-  #include dropbox
-  #include skype
+  include dropbox
+  include skype
   
-  #include mongodb
-  #include mou
-  #include colloquy
+  include mongodb
+  include mou
+  include colloquy
   
-  #include vlc
-  #include hipchat
-  #include wunderlist
-}
+  include vlc
+  include hipchat
+  include wunderlist
+
