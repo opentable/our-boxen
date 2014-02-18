@@ -22,6 +22,6 @@ class people::stack72 {
   include hipchat
   include wunderlist
   include ohmyzsh
-  include royaltsx
+  #include royaltsx
 }
 
