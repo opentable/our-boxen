@@ -1,4 +1,4 @@
-class people::liamjbennett {
+class people::stevejhiggs {
 
   # system tools
   include alfred
@@ -18,8 +18,6 @@ class people::liamjbennett {
   include vmware_fusion
   include virtualbox
   include mou
- 
-  include python
   include vim
 
   # personal stuff
