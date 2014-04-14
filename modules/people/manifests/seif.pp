@@ -4,6 +4,7 @@ class people::seif{
 
   include alfred
   include iterm2::stable
+  include tmux
   include alfred
 
   include firefox
@@ -25,10 +26,7 @@ class people::seif{
   include webstorm
 
   package {
-    [
-      'ttytter',
-      'tmux'
-    ]:
+      'ttytter':
     ensure => present,
   }
 
