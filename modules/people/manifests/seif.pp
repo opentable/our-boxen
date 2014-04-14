@@ -22,7 +22,6 @@ class people::seif{
   include vagrant
   include packer
   include mongodb
-  include vim
   include webstorm
 
   package {
