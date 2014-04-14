@@ -21,8 +21,7 @@ class people::seif{
 
   include vagrant
   include packer
-  include mongodb::client
-  include vim
+  include mongodb
   include webstorm
 
   package {
@@ -42,7 +41,7 @@ class people::seif{
   # Get repos and link files
   repository { 'homesick-bash':
     source => 'seif/homesick-bash',
-    path => "${home}/.homesick/repos/homeshick-bash"
+    path => "${home}/.homesick/repos/homesick-bash"
   }
   ~> exec { "homesick symlink homesick-bash --force":
     refreshonly => true
@@ -58,7 +57,7 @@ class people::seif{
 
   repository { 'homesick-private':
     source => 'seif/homesick-private',
-    path => "${home}/.homesick/repos/homeshick-private"
+    path => "${home}/.homesick/repos/homesick-private"
   }
   ~> exec { "homesick symlink homesick-private --force":
     refreshonly => true
@@ -66,7 +65,7 @@ class people::seif{
 
   repository { 'homesick-tmux':
     source => 'seif/homesick-tmux',
-    path => "${home}/.homesick/repos/homeshick-tmux"
+    path => "${home}/.homesick/repos/homesick-tmux"
   }
   ~> exec { "homesick symlink homesick-tmux --force":
     refreshonly => true
@@ -74,7 +73,7 @@ class people::seif{
 
   repository { 'homesick-ttytter':
     source => 'seif/homesick-ttytter',
-    path => "${home}/.homesick/repos/homeshick-ttytter"
+    path => "${home}/.homesick/repos/homesick-ttytter"
   }
   ~> exec { "homesick symlink homesick-ttytter --force":
     refreshonly => true
@@ -82,7 +81,7 @@ class people::seif{
 
   repository { 'homesick-vim':
     source => 'seif/homesick-vim',
-    path => "${home}/.homesick/repos/homeshick-vim"
+    path => "${home}/.homesick/repos/homesick-vim"
   }
   ~> exec { "homesick symlink homesick-vim --force":
     refreshonly => true
