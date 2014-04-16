@@ -95,3 +95,5 @@ github "sparrow", "1.0.0"
 github "unarchiver", "1.4.0", :repo => "dieterdemeyer/puppet-unarchiver"
 github "adobeflashplayer", "1.0.1", :repo => "singuerinc/puppet-adobeflashplayer"
 github "tmux", "1.0.2"
+github "copy", "1.0.0"
+

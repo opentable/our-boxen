@@ -14,7 +14,7 @@ class people::seif{
   include vlc
   include spotify
 
-  include dropbox
+  include copy
   include skype
   include hipchat
   include colloquy
