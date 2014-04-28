@@ -1,4 +1,4 @@
-class people::chrisriddle {
+class people::christriddle {
 
   # system tools
   include alfred
