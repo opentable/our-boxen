@@ -24,6 +24,13 @@ class people::seif{
   include packer
   include mongodb
   include webstorm
+  include automake
+  include libtool
+
+  package {
+      'gettext':
+    ensure => present,
+  }
 
   package {
       'ttytter':
